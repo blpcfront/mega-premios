@@ -7,7 +7,10 @@
     "dev": "light-server -s ./src -w 'src/**'",
     "start": "light-server -s ./src",
     "deploy": "gh-pages -d src",
-    "commit": "git add . && git cz"
+    "commit": "git add . && git cz",
+    "release:patch": "standard-version - --release-as patch",
+    "release:minor": "standard-version - --release-as minor",
+    "release:major": "standard-version - --release-as major"
   },
   "repository": {
     "type": "git",
