@@ -554,7 +554,7 @@
 /* - begin call to action section */
 .call-to-action{
   padding: var(--padding-sessions);
-  background-image: url("../assets/images/bg.webp");
+  background-image: url("../assets/images/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
