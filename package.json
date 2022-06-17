@@ -1,0 +1,40 @@
+{
+  "name": "mega-premios",
+  "version": "1.0.0",
+  "description": "mega premios",
+  "main": "index.js",
+  "scripts": {
+    "dev": "light-server -s ./src -w 'src/**'",
+    "start": "light-server -s ./src",
+    "deploy": "gh-pages -d src",
+    "commit": "git add . && git cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blpcfront/mega-premios.git"
+  },
+  "author": "blpcfront <blpcfront@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blpcfront/mega-premios/issues"
+  },
+  "homepage": "https://github.com/blpcfront/mega-premios#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "gh-pages": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.1",
+    "light-server": "^2.9.1",
+    "prettier": "^2.7.0",
+    "standard-version": "^9.5.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
