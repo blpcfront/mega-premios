@@ -194,10 +194,11 @@ main {
 
 .content.sidebar-expanded {
   min-width: 360px;
+  overflow: hidden;
 }
 
 .content.sidebar-expanded .overlay {
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
@@ -205,6 +206,7 @@ main {
   background: rgba(0, 0, 0, 0.5);
   transition: 0.6s;
   z-index: 100;
+  overflow: hidden;
 }
 
 .content .row-panels {
